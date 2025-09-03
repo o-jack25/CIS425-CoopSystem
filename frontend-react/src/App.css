@@ -1,0 +1,18 @@
+/* Reset default margins and fonts */
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  width: 100vw;     /* full width */
+  height: 100vh;    /* full height */
+  font-family: Arial, sans-serif;
+  
+}
+
+/* Container flex for sidebar + main content */
+.container {
+  display: flex;
+  min-height: 100vh;
+  background-color: white;
+  width: 100%;      /* full width of parent */
+  height: 100%;     /* full height of parent */
+}

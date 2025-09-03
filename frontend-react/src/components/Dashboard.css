@@ -1,0 +1,25 @@
+.main-content {
+  flex: 1;               /* Take all remaining horizontal space */
+  display: flex;          /* Enable vertical layout inside */
+  flex-direction: column; /* Stack header, cards, placeholder vertically */
+  padding: 2rem;
+  background-color: #f0f0f0;
+  min-height: 100vh;      /* Make it fill the vertical height */
+  box-sizing: border-box;
+}
+
+
+.cards {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0;
+  width: 100%;
+}
+
+.placeholder {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
